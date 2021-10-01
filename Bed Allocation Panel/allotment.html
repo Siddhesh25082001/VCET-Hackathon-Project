@@ -21,6 +21,136 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+        <style>
+
+            .details{
+                padding: 20px 10px !important;
+            }
+
+            .contain{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+
+            .contain .left{
+                padding: 8px;
+                width: 45%;
+                display: flex;
+                flex-direction: column;
+                color: #111;
+            }
+
+            .contain .left p{
+                font-size: 16px;
+                opacity: 0.75;
+                font-weight: bold;
+            }
+
+            .contain .left h6{
+                font-size: 16px;
+                opacity: 0.9;
+            }
+
+            .contain .left span{
+                color: red;
+                margin-right: 2px;
+            }
+
+            .contain .right{
+                padding: 5px 11px;
+                width: 55%;
+                border-radius: 25px;
+                background-color: rgba(58,59,69,.15);
+            }
+
+            .contain .right .box{
+                margin: 10px 0 15px 0;
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+            }
+
+            .contain .right .box h6{
+                font-weight: bold;
+                color: #111;
+                font-size: 16px;
+            }
+
+            .contain .right .box .buttons{
+                display: flex;
+                padding: 0 2px;
+                width: 100%;
+                justify-content: space-around;
+            }
+
+            .contain .right .box .buttons .specs{
+                width: max-content;
+                border-radius: 25px;
+                font-size: 10px;
+                color: #111;
+                padding: font;
+                font-weight: bold;
+                letter-spacing: 0.65px;
+            }
+
+            .contain .right .box .buttons .spec{
+                width: max-content;
+                border-radius: 25px;
+                font-size: 10px;
+                color: #111;
+                background: lightcoral;
+                font-weight: bold;
+                letter-spacing: 0.65px;
+            }
+
+            .contain .right .third{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .contain .right .third .oxygen{
+                border-radius: 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #111;
+                background: #fff;
+                padding: 5px 12px;
+            }
+
+            .contain .right .third .oxygen .oxy{
+                width: 70%;
+                margin: 0;
+                justify-content: center;
+                align-items: center;
+                color: #111;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .contain .right .third .oxygen .oxyg{
+                width: 25%;
+                margin: 0;
+                text-align: center;
+                align-items: center;
+                color: rgb(255, 70, 70);
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .btn-success, .btn-danger{
+                padding: 10px 15px;
+                width: max-content;
+                border-radius: 25px;
+                margin: 15px 0 15px auto;
+                font-size: 12px;
+                font-weight: bold;
+                letter-spacing: 0.65px;
+            }
+
+        </style>
+
     </head>
 
     <!-- This is the Body Section -->
@@ -307,7 +437,7 @@
                             <li class="nav-item dropdown no-arrow">
 
                                 <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Siddhesh Mane</span>
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><b>Siddhesh Mane</b></span>
                                     <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
                                 </a>
 
@@ -435,28 +565,46 @@
                                     </div>
                                     
                                     <!-- Patient - 1 -->
-                                    <div class="card-body">
+                                    <div class="card-body details">
                                         <div class="collapse" id="collapseCardExample1">
-                                            <div class="card-body">
-                                                <p>This is for Content-1</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Patient - 2 -->
-                                    <div class="card-body">
-                                        <div class="collapse" id="collapseCardExample2">
-                                            <div class="card-body">
-                                                <p>This is for Content-2</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Patient - 3 -->
-                                    <div class="card-body">
-                                        <div class="collapse" id="collapseCardExample3">
-                                            <div class="card-body">
-                                                <p>This is for Content-3</p>
+                                            <div class="contain">
+                                                <div class="left">
+                                                    <h6><b>Siddhesh Mane</b></h6>
+                                                    <p>Malad East, Mumbai-97</p>
+                                                    <h6><span><i class="fas fa-tty"></i></span>+91-7710914875</h6>
+                                                    <h6><span><i class="fas fa-phone"></i></span>+91-8779629034</h6>
+                                                    <div class="buttons">
+                                                        <button class="btn btn-info btn-sm" style="color: #fff !important; font-weight: bold; border-radius: 30px; padding: 5px 10px;">Age - 18</button>
+                                                        <button class="btn btn-info btn-sm" style="color: #fff !important; font-weight: bold; border-radius: 30px; padding: 5px 10px;">Male</button>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <div class="box first">
+                                                        <h6>Symptoms</h6>
+                                                        <div class="buttons">
+                                                            <button class="specs btn btn-warning">Body Pain</button>
+                                                            <button class="specs btn btn-warning">Headache</button>
+                                                            <button class="specs btn btn-warning">Headache</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box second">
+                                                        <h6>Comorbidities</h6>
+                                                        <div class="buttons">
+                                                            <button class="spec btn ">Diabetes</button>
+                                                            <button class="spec btn ">High BP</button>
+                                                            <button class="spec btn ">Headache</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box third">
+                                                        <div class="oxygen">
+                                                            <p class="oxy"><b>O<sub>2</sub> Saturation Level</b></p>
+                                                            <p class="oxyg"><b><big>88</big></b>
+                                                            </p>
+                                                        </div>
+                                                        <button class="btn btn-success">Home Quarantine Possible</button>
+                                                        <!-- <button class="btn btn-danger">Home Quarantine Not Possible</button> -->
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
