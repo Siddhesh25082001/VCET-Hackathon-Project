@@ -1,0 +1,4 @@
+.hosp_details{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
