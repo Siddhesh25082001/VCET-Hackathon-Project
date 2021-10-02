@@ -1,0 +1,243 @@
+<!-- This is 'index.html' File of VCET Hackathon Project -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- This is the Head Section -->
+    <head>
+
+        <!-- Meta Information for Search Engines -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Title of the Document -->
+        <title>Covid Care Center</title>
+
+        <!-- Link to the Bootsrap CSS -->
+        <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="/css/sb-admin-2.min.css" rel="stylesheet">
+
+    </head>
+
+    <!-- This is the Body Section -->
+    <body id="page-top">
+
+        <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                                W R A P P E R   C L A S S 
+        ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+            <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                            S I D E     N A V I G A T I O N      B A R 
+             ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+                <!-- Sidebar Logo -->
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/allotment">
+                    <div class="sidebar-brand-icon">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <div class="sidebar-brand-text mx-3">Covid Care Center</div>
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard" target="_blank">
+                        <i class="fas fa-fw fa-tachometer-alt"></i>
+                        <span>Dashboard</span></a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Nav Item - Sub Heading -->
+                <div class="sidebar-heading">
+                    Interface
+                </div>
+
+                <!-- Nav Item - Allotments -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/allotment">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Allotment</span>
+                    </a>
+                </li>
+
+                <!-- Nav Item - Patients -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/allotment/patients">
+                        <i class="fas fa-user-injured"></i>
+                        <span>Patients</span>
+                    </a>
+                </li>
+
+                <!-- Nav Item - Patients -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/allotment/facilities">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Facilities</span>
+                    </a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+            </ul>
+
+            <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                                C O N T E N T   W R A P P E R
+             ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            
+            <div id="content-wrapper" class="d-flex flex-column">
+
+                <!-- Main Content -->
+                <div id="content">
+
+                    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                    C O N T E N T   W R A P P E R   -   N A V B A R
+                    --------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+                    
+                   
+
+                    <div class="container-fluid " style="margin: 30px auto 10px 0;">
+
+                        <!-- Page Heading -->
+                        <h1 class="h3 mb-4 text-gray-800">Facilities</h1>
+
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                                <% for(var i = 0;i < facilities.length;i++) { %>
+                                <div class="card shadow mb-4" style="width:48%">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">Facilities Details</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="m-0 font-weight-bold text-black"><%=facilities[i].name%></h6>
+                                        <p class="m-0 font-weight-bold text-black"><%=facilities[i].address%></p>
+                                        <p class="m-0 font-weight-bold text-black">Type: Government Hospital</p>
+                                        <!-- <p class="m-0 font-weight-bold text-black">Facilities Name: Facility-1, Facility-2</p> -->
+                                        <p class="m-0 font-weight-bold text-black">Last Update :<%=facilities[i].last_update_date%></p>
+                                    </div>
+                                </div>
+                               <% } %>
+                                <!-- <div class="card shadow mb-4" style="width:48%">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">Facilities Details</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="m-0 font-weight-bold text-black">Suvidha Hospital</h6>
+                                        <p class="m-0 font-weight-bold text-black">Suvidha hospital and polyclinic, 275, Rd Number 3, Jawahar Nagar, Goregaon West, Mumbai, Maharashtra 400104</p>
+                                        <p class="m-0 font-weight-bold text-black">Type: Government Hospital</p>
+                                        <p class="m-0 font-weight-bold text-black">Facilities Name: Facility-1, Facility-2</p>
+                                        <p class="m-0 font-weight-bold text-black">Type of Bed: ICU Bed</p>
+                                    </div>
+                                </div>
+
+                                <div class="card shadow mb-4" style="width:48%">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">Facilities Details</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="m-0 font-weight-bold text-black">Suvidha Hospital</h6>
+                                        <p class="m-0 font-weight-bold text-black">Suvidha hospital and polyclinic, 275, Rd Number 3, Jawahar Nagar, Goregaon West, Mumbai, Maharashtra 400104</p>
+                                        <p class="m-0 font-weight-bold text-black">Type: Government Hospital</p>
+                                        <p class="m-0 font-weight-bold text-black">Facilities Name: Facility-1, Facility-2</p>
+                                        <p class="m-0 font-weight-bold text-black">Type of Bed: ICU Bed</p>
+                                    </div>
+                                </div>
+
+                                <div class="card shadow mb-4" style="width:48%">
+                                    <div class="card-header py-3">
+                                        <h6 class="m-0 font-weight-bold text-primary">Facilities Details</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="m-0 font-weight-bold text-black">Suvidha Hospital</h6>
+                                        <p class="m-0 font-weight-bold text-black">Suvidha hospital and polyclinic, 275, Rd Number 3, Jawahar Nagar, Goregaon West, Mumbai, Maharashtra 400104</p>
+                                        <p class="m-0 font-weight-bold text-black">Type: Government Hospital</p>
+                                        <p class="m-0 font-weight-bold text-black">Facilities Name: Facility-1, Facility-2</p>
+                                        <p class="m-0 font-weight-bold text-black">Type of Bed: ICU Bed</p>
+                                    </div>
+                                </div>
+                                 -->
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- End of Main Content -->
+
+                <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                    C O N T E N T   W R A P P E R   -   F O O T E R
+                ----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+               
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright &copy; Covid Care Center</span>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+
+        </div>
+
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+                                                                                L O G O U T     M O D E L
+        ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+
+    <!-- Link to the Bootstrap Scripts -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/js/sb-admin-2.min.js"></script>
+
+</html>
