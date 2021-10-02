@@ -3,6 +3,8 @@
 ### Problem Statement: 
 Creating a single user friendly dashboard essentially fulfilling all needs of the user by providing valuable information like availability of ICU beds, oxygen, ambulances and even the patient status all in one place
 
+#### The Web-App is being hosted on Heroku server and can be accessed by the following link: https://covid-care-vcet.herokuapp.com/
+
 ### System Architecture : 
 ![WhatsApp Image 2021-10-02 at 14 47 37](https://user-images.githubusercontent.com/67231450/135710721-92fb872d-b285-4be8-bbc3-4e8378681384.jpeg)
 
@@ -35,3 +37,8 @@ Step 5: Your details have been recorded by the bot. now just to confirm it, simp
 #### This is the most important part of our Pipeline. BAT stands for Bed Allocation team, name itself suggest the work of this team. Unlike call team, bat is a team of doctors and medical professionals who decide which kind of bed (ordinary bed, o2 bed, ICU, etc) should be allocated to the patient. BAT has a web interface where it gets the list of the patients forwarded by the call team and then they check the availability of the bed in the entire ward and assign it to the patient as per the need. To check the availability of the bed, BAT has been provided by the Dashboard which shows the number of bed (of different categories) vacant in the ward. Also, facility (hospital) wise data is presented to them to make their work more efficient and fast. Once the Bat decides the facility and the type of bed to be allocated, they have to fill a form and allocate the patient in that particular facility. One final validation is received from the facility and the patient is admitted there and the treatment begins...
 
 ### --------------------------------------------------------------------------------------------------------
+
+### Implementation
+
+![image](https://user-images.githubusercontent.com/67231450/135710865-43614ae4-c961-4178-8daf-41d462562da2.png)
+
