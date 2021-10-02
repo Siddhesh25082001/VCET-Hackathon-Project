@@ -56,8 +56,14 @@ Step 5: Your details have been recorded by the bot. now just to confirm it, simp
 #### Bat Panel - 3 (Facilities)
 ![image](https://user-images.githubusercontent.com/67231450/135711061-f4a0f738-fe1a-47c7-8be3-c48c8398e361.png)
 
+#### Dashboard
+![image](https://user-images.githubusercontent.com/67231450/135711201-0bc3cd80-ab23-4ccd-8966-55431939ba67.png)
 
+#### Dashboard - Facilties
+![image](https://user-images.githubusercontent.com/67231450/135711211-1e706906-8132-44ec-ae35-6ebc23a669a5.png)
 
+#### Dashboard - Patients
+![image](https://user-images.githubusercontent.com/67231450/135711279-5a6a5751-313e-4fb9-a90d-8e900e65c199.png)
 
-
-
+#### Call Team - Call Form
+![image](https://user-images.githubusercontent.com/67231450/135711184-eab96b8a-0216-4e75-aece-1959bb31edb8.png)
