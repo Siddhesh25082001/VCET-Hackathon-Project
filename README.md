@@ -6,7 +6,7 @@ Creating a single user friendly dashboard essentially fulfilling all needs of th
 ### System Architecture : 
 ![System Architecture](https://user-images.githubusercontent.com/67231450/135576793-c11d67e4-6d39-4e3d-bab7-06cff06536e9.PNG)
 
-### --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### ----------------------------------------------------------------------------------
 
 ### Steps to chat with our bot:
 
@@ -22,7 +22,7 @@ Step 4: The bots sends the confirmation msg after receiving the name and also as
 
 Step 5: Your details have been recorded by the bot. now just to confirm it, simply type confirm and your data is successfully sent to the call team which will call asap on the number you just entered.
 
-#### --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### -----------------------------------------------------------------------------------
 
 ### There are Two Major Elements of the Web-App namely Call Team and Bed Allocation Team
 
