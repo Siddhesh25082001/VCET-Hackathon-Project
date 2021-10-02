@@ -3,7 +3,8 @@
 ### Problem Statement: 
 Creating a single user friendly dashboard essentially fulfilling all needs of the user by providing valuable information like availability of ICU beds, oxygen, ambulances and even the patient status all in one place
 
-#### The Web-App is being hosted on Heroku server and can be accessed by the following link: https://covid-care-vcet.herokuapp.com/
+#### The Web-App is being hosted on Heroku server and can be accessed by the following link:
+https://covid-care-vcet.herokuapp.com/
 
 ### System Architecture : 
 ![WhatsApp Image 2021-10-02 at 14 47 37](https://user-images.githubusercontent.com/67231450/135710721-92fb872d-b285-4be8-bbc3-4e8378681384.jpeg)
@@ -40,5 +41,23 @@ Step 5: Your details have been recorded by the bot. now just to confirm it, simp
 
 ### Implementation
 
+##### Sign Up Page
 ![image](https://user-images.githubusercontent.com/67231450/135710865-43614ae4-c961-4178-8daf-41d462562da2.png)
+
+##### Login Page
+![image](https://user-images.githubusercontent.com/67231450/135710958-7eb49c94-ebc7-4157-b775-3a01e8f7b1e0.png)
+
+##### Bat Panel - 1 (Allotment)
+![image](https://user-images.githubusercontent.com/67231450/135710996-c18ee438-f050-4bdc-80e3-8c7b27c3df6d.png)
+
+#### Bat Panel - 2 (Patients)
+![image](https://user-images.githubusercontent.com/67231450/135711042-03aab8ab-7803-4da2-bc40-285c81bf0460.png)
+
+#### Bat Panel - 3 (Facilities)
+![image](https://user-images.githubusercontent.com/67231450/135711061-f4a0f738-fe1a-47c7-8be3-c48c8398e361.png)
+
+
+
+
+
 
