@@ -1,0 +1,19 @@
+.main{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.callform{
+    width: 80%;
+}
+
+.sinput{
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+.qrcode{
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+    width: 80%;
+}
