@@ -4,9 +4,9 @@
 Creating a single user friendly dashboard essentially fulfilling all needs of the user by providing valuable information like availability of ICU beds, oxygen, ambulances and even the patient status all in one place
 
 ### System Architecture : 
-![System Architecture](https://user-images.githubusercontent.com/67231450/135576793-c11d67e4-6d39-4e3d-bab7-06cff06536e9.PNG)
+![WhatsApp Image 2021-10-02 at 14 47 37](https://user-images.githubusercontent.com/67231450/135710721-92fb872d-b285-4be8-bbc3-4e8378681384.jpeg)
 
-### -----------------------------------------------------------------------------------
+### -----------------------------------------------------------------------------------------------------------
 
 ### Steps to chat with our bot:
 
@@ -22,11 +22,9 @@ Step 4: The bots sends the confirmation msg after receiving the name and also as
 
 Step 5: Your details have been recorded by the bot. now just to confirm it, simply type confirm and your data is successfully sent to the call team which will call asap on the number you just entered.
 
-#### -----------------------------------------------------------------------------------
+### -----------------------------------------------------------------------------------------------------------
 
-### There are Two Major Elements of the Web-App namely Call Team and Bed Allocation Team
-
-#### ------------------------------------------------------------------------------------
+### There are Two Major Elements of the Web-App namely Call Team and Bed Allocation Team : 
 
 ### Call Team: 
 
@@ -36,4 +34,4 @@ Step 5: Your details have been recorded by the bot. now just to confirm it, simp
 
 #### This is the most important part of our Pipeline. BAT stands for Bed Allocation team, name itself suggest the work of this team. Unlike call team, bat is a team of doctors and medical professionals who decide which kind of bed (ordinary bed, o2 bed, ICU, etc) should be allocated to the patient. BAT has a web interface where it gets the list of the patients forwarded by the call team and then they check the availability of the bed in the entire ward and assign it to the patient as per the need. To check the availability of the bed, BAT has been provided by the Dashboard which shows the number of bed (of different categories) vacant in the ward. Also, facility (hospital) wise data is presented to them to make their work more efficient and fast. Once the Bat decides the facility and the type of bed to be allocated, they have to fill a form and allocate the patient in that particular facility. One final validation is received from the facility and the patient is admitted there and the treatment begins...
 
-### --------------------------------------------------------------------------------------------
+### -----------------------------------------------------------------------------------------------------------
