@@ -6,7 +6,7 @@ Creating a single user friendly dashboard essentially fulfilling all needs of th
 ### System Architecture : 
 ![System Architecture](https://user-images.githubusercontent.com/67231450/135576793-c11d67e4-6d39-4e3d-bab7-06cff06536e9.PNG)
 
-### ----------------------------------------------------------------------------------
+### -----------------------------------------------------------------------------------
 
 ### Steps to chat with our bot:
 
@@ -36,4 +36,4 @@ Step 5: Your details have been recorded by the bot. now just to confirm it, simp
 
 #### This is the most important part of our Pipeline. BAT stands for Bed Allocation team, name itself suggest the work of this team. Unlike call team, bat is a team of doctors and medical professionals who decide which kind of bed (ordinary bed, o2 bed, ICU, etc) should be allocated to the patient. BAT has a web interface where it gets the list of the patients forwarded by the call team and then they check the availability of the bed in the entire ward and assign it to the patient as per the need. To check the availability of the bed, BAT has been provided by the Dashboard which shows the number of bed (of different categories) vacant in the ward. Also, facility (hospital) wise data is presented to them to make their work more efficient and fast. Once the Bat decides the facility and the type of bed to be allocated, they have to fill a form and allocate the patient in that particular facility. One final validation is received from the facility and the patient is admitted there and the treatment begins...
 
-### ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### --------------------------------------------------------------------------------------------
