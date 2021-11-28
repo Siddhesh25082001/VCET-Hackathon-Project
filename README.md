@@ -12,6 +12,29 @@ Creating a single user friendly dashboard essentially fulfilling all needs of th
 
 ---
 
+## Description
+
+**There are Two Major Elements of the Web-App namely Call Team and Bed Allocation Team :** 
+
+**Call Team :**
+
+A call team is generally a squad of 15-20 non-medicos which work 24 hours a day, seven days a week to verify the covid positive patient and collect information which the bot missed. The data is forwarded to the call centre operator via the bot. On their online interface, the data is presented to the team in the form of a table and a QR code. The QR code simplifies their lives because all they have to do is scan it to receive the contact information they need to work. They commence by calling each patient one by one and filling out the contents of the form provided on their web interface in addition to the contact information form. After the patient has been confirmed and all required details such as symptoms, oxygen saturation level, and so on have been collected, the patient is registered into the database and forwarded to the BAT for further process
+
+**Bed Allocation Team (BAT) :**
+
+This is the most crucial section of our pipeline. BAT stands for Bed Allocation Team, and the acronym suggests what this team undertakes. Unlike the call team, the bat team consists of doctors and medical professionals who determine which type of bed (ordinary,  oxygen bed, ICU, etc.) the patient should be assigned. BAT has a web interface where it receives a list of patients from the call centre, checks the availability of beds around the ward, and assigns them to the patient based on their needs. The Dashboard, which indicates the number of beds (of various kinds) vacant in the ward, has been supplied by BAT to monitor the availability of the bed. They are also given facility (hospital) specific data to help them perform more efficiently and quickly.
+
+---
+
+## TechStack
+><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank">  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank">
+ 
+ ---
+ 
+ ## Getting Started
+ 1. [**Follow this link to communicate with our whatsapp bot**](http://api.whatsapp.com/send?phone=+1-(415)-523-8886 "Covid-Care-Center")<a href="http://api.whatsapp.com/send?phone=917710914875" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
 ### Steps to chat with our bot:
  - First type the following message to our bot to activate it
 ``` 
@@ -30,17 +53,7 @@ Creating a single user friendly dashboard essentially fulfilling all needs of th
 
 ---
 
-### There are Two Major Elements of the Web-App namely Call Team and Bed Allocation Team : 
 
-**Call Team : **
-
-A call team is generally a squad of 15-20 non-medicos which work 24 hours a day, seven days a week to verify the covid positive patient and collect information which the bot missed. The data is forwarded to the call centre operator via the bot. On their online interface, the data is presented to the team in the form of a table and a QR code. The QR code simplifies their lives because all they have to do is scan it to receive the contact information they need to work. They commence by calling each patient one by one and filling out the contents of the form provided on their web interface in addition to the contact information form. After the patient has been confirmed and all required details such as symptoms, oxygen saturation level, and so on have been collected, the patient is registered into the database and forwarded to the BAT for further process.
-
-** Bed Allocation Team (BAT): **
-
-This is the most important part of our Pipeline. BAT stands for Bed Allocation team, name itself suggest the work of this team. Unlike call team, bat is a team of doctors and medical professionals who decide which kind of bed (ordinary bed, o2 bed, ICU, etc) should be allocated to the patient. BAT has a web interface where it gets the list of the patients forwarded by the call team and then they check the availability of the bed in the entire ward and assign it to the patient as per the need. To check the availability of the bed, BAT has been provided by the Dashboard which shows the number of bed (of different categories) vacant in the ward. Also, facility (hospital) wise data is presented to them to make their work more efficient and fast. Once the Bat decides the facility and the type of bed to be allocated, they have to fill a form and allocate the patient in that particular facility. One final validation is received from the facility and the patient is admitted there and the treatment begins...
-
----
 
 ### Implementation
 
