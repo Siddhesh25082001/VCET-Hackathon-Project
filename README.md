@@ -35,25 +35,41 @@ This is the most crucial section of our pipeline. BAT stands for Bed Allocation 
  ## Getting Started
  1. [**Follow this link to communicate with our whatsapp bot**](http://api.whatsapp.com/send?phone=+1-(415)-523-8886 "Covid-Care-Center")<a href="http://api.whatsapp.com/send?phone=917710914875" target="_blank"><i class="fab fa-whatsapp"></i></a>
 
-### Steps to chat with our bot:
- - First type the following message to our bot to activate it
+- Steps to chat with the bot:
+ 
+ 1. Type the following message to activate the bot
+ 
 ``` 
   join not-beauty
 ```
- - Now if you are looking for a bed (covid) type the following message
+ 
+ 2. Now, if you are looking for a covid bed, just type the below message
 ```  
   /bed
 ```
 
- - Now you can see the bot asks you to enter you name so kindly enter you correct full name
+  3. Now, Enter your correct full name
+ ```
+ < firstName - middleName - lastName >
+ ```
 
- - The bots sends the confirmation msg after receiving the name and also asks for your mobile number so kindly enter you 10 digit valid mobile number
+  Wait for the confirmation message by the bot for your name, Once the confirmation is received, it asks for your contact number
+  
+ 4. Now, Enter a valid 10 digit contact number
+```
+XXX-XXX-XXX
+```
 
- - Your details have been recorded by the bot. now just to confirm it, simply type confirm and your data is successfully sent to the call team which will call asap on the number you just entered.
+  All the mentioned details have been recorded by the bot and also displayed to you for a confirmation
+
+ 5. If all details are correct, simply type confirm
+  
+ All the data is being successfully stored in the database of the call team which will call upon the given no as soon as possible
+
+(You Can Refer the below figure if any doubts)
+![image](https://user-images.githubusercontent.com/67231450/143731938-f7a61e0a-de62-44b0-b152-22ee19284373.png)
 
 ---
-
-
 
 ### Implementation
 
