@@ -27,6 +27,7 @@ This is the most crucial section of our pipeline. BAT stands for Bed Allocation 
 ---
 
 ## TechStack
+
 ><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank">  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank">
  
@@ -53,49 +54,59 @@ This is the most crucial section of our pipeline. BAT stands for Bed Allocation 
  < firstName - middleName - lastName >
  ```
 
-  Wait for the confirmation message by the bot for your name, Once the confirmation is received, it asks for your contact number
+ - Wait for the confirmation message by the bot for your name, Once the confirmation is received, it asks for your contact number
   
  4. Now, Enter a valid 10 digit contact number
 ```
 XXX-XXX-XXX
 ```
 
-  All the mentioned details have been recorded by the bot and also displayed to you for a confirmation
+ - All the mentioned details have been recorded by the bot and also displayed to you for a confirmation
 
  5. If all details are correct, simply type confirm
   
- All the data is being successfully stored in the database of the call team which will call upon the given no as soon as possible
+ - All the data is being successfully stored in the database of the call team which will call upon the given no as soon as possible
 
 (You Can Refer the below figure if any doubts)
-![image](https://user-images.githubusercontent.com/67231450/143731938-f7a61e0a-de62-44b0-b152-22ee19284373.png)
+  
+![image](https://user-images.githubusercontent.com/67231450/143731938-f7a61e0a-de62-44b0-b152-22ee19284373.png "Covid-Care-Center Chatbot")
 
 ---
 
 ### Implementation
 
-##### Sign Up Page
+> **Sign Up Page**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135710865-43614ae4-c961-4178-8daf-41d462562da2.png)
 
-##### Login Page
+> **Login Page**
+
 ![image](https://user-images.githubusercontent.com/67231450/135710958-7eb49c94-ebc7-4157-b775-3a01e8f7b1e0.png)
 
-##### Bat Panel - 1 (Allotment)
+> **Bat Panel - 1 (Allotment)**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135710996-c18ee438-f050-4bdc-80e3-8c7b27c3df6d.png)
 
-#### Bat Panel - 2 (Patients)
+> **Bat Panel - 2 (Patients)**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135711042-03aab8ab-7803-4da2-bc40-285c81bf0460.png)
 
-#### Bat Panel - 3 (Facilities)
+> **Bat Panel - 3 (Facilities)**
+
 ![image](https://user-images.githubusercontent.com/67231450/135711061-f4a0f738-fe1a-47c7-8be3-c48c8398e361.png)
 
-#### Dashboard
+> **Dashboard**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135711201-0bc3cd80-ab23-4ccd-8966-55431939ba67.png)
 
-#### Dashboard - Facilties
+> **Dashboard - Facilties**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135711211-1e706906-8132-44ec-ae35-6ebc23a669a5.png)
 
-#### Dashboard - Patients
+> **Dashboard - Patients**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135711279-5a6a5751-313e-4fb9-a90d-8e900e65c199.png)
 
-#### Call Team - Call Form
+> **Call Team - Call Form**
+  
 ![image](https://user-images.githubusercontent.com/67231450/135711184-eab96b8a-0216-4e75-aece-1959bb31edb8.png)
